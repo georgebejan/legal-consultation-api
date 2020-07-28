@@ -1,8 +1,8 @@
-package com.code4ro.legalconsultation.converters;
+package com.code4ro.legalconsultation.document.metadata.mapper;
 
-import com.code4ro.legalconsultation.model.dto.DocumentMetadataDto;
+import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentMetadataDto;
 import com.code4ro.legalconsultation.model.dto.DocumentViewDto;
-import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
+import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

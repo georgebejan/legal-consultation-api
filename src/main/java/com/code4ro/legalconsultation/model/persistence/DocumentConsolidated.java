@@ -1,5 +1,6 @@
 package com.code4ro.legalconsultation.model.persistence;
 
+import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import lombok.Getter;

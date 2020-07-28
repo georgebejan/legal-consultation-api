@@ -1,10 +1,10 @@
-package com.code4ro.legalconsultation.service.impl;
+package com.code4ro.legalconsultation.document.metadata.service;
 
-import com.code4ro.legalconsultation.converters.DocumentMetadataMapper;
-import com.code4ro.legalconsultation.model.dto.DocumentMetadataDto;
+import com.code4ro.legalconsultation.document.metadata.mapper.DocumentMetadataMapper;
+import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentMetadataDto;
 import com.code4ro.legalconsultation.model.dto.DocumentViewDto;
-import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
-import com.code4ro.legalconsultation.repository.DocumentMetadataRepository;
+import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
+import com.code4ro.legalconsultation.document.metadata.repository.DocumentMetadataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

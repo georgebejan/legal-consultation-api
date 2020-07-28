@@ -1,6 +1,6 @@
-package com.code4ro.legalconsultation.repository;
+package com.code4ro.legalconsultation.document.metadata.repository;
 
-import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
+import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

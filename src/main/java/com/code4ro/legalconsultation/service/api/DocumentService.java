@@ -1,9 +1,10 @@
 package com.code4ro.legalconsultation.service.api;
 
+import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentMetadataDto;
 import com.code4ro.legalconsultation.model.dto.*;
 import com.code4ro.legalconsultation.model.persistence.DocumentConsolidated;
 import com.code4ro.legalconsultation.model.persistence.DocumentExportFormat;
-import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
+import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.user.model.dto.UserDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

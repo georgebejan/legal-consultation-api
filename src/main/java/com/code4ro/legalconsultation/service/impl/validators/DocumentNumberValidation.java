@@ -1,7 +1,7 @@
 package com.code4ro.legalconsultation.service.impl.validators;
 
 import com.code4ro.legalconsultation.model.dto.dtoValidators.UniqueDocumentNumberConstraint;
-import com.code4ro.legalconsultation.repository.DocumentMetadataRepository;
+import com.code4ro.legalconsultation.document.metadata.repository.DocumentMetadataRepository;
 import lombok.AllArgsConstructor;
 
 import javax.validation.ConstraintValidator;

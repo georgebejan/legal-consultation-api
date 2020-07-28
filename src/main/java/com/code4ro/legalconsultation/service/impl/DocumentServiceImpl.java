@@ -2,6 +2,9 @@ package com.code4ro.legalconsultation.service.impl;
 
 import com.code4ro.legalconsultation.converters.DocumentConsolidatedMapper;
 import com.code4ro.legalconsultation.converters.PdfHandleMapper;
+import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentMetadataDto;
+import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
+import com.code4ro.legalconsultation.document.metadata.service.DocumentMetadataService;
 import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.user.mapper.UserMapper;
 import com.code4ro.legalconsultation.model.dto.*;
