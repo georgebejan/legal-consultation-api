@@ -1,13 +1,13 @@
-package com.code4ro.legalconsultation.service.impl;
+package com.code4ro.legalconsultation.vote.service.impl;
 
 import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
-import com.code4ro.legalconsultation.model.dto.VoteDto;
+import com.code4ro.legalconsultation.vote.model.dto.VoteDto;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
 import com.code4ro.legalconsultation.comment.model.persistence.Comment;
-import com.code4ro.legalconsultation.model.persistence.Vote;
-import com.code4ro.legalconsultation.repository.VoteRepository;
-import com.code4ro.legalconsultation.service.api.VoteService;
+import com.code4ro.legalconsultation.vote.model.persistence.Vote;
+import com.code4ro.legalconsultation.vote.repository.VoteRepository;
+import com.code4ro.legalconsultation.vote.service.VoteService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;

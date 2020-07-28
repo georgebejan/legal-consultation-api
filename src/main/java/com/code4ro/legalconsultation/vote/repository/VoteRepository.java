@@ -1,6 +1,6 @@
-package com.code4ro.legalconsultation.repository;
+package com.code4ro.legalconsultation.vote.repository;
 
-import com.code4ro.legalconsultation.model.persistence.Vote;
+import com.code4ro.legalconsultation.vote.model.persistence.Vote;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

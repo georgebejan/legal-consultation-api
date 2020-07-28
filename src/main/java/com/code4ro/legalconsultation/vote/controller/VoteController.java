@@ -1,7 +1,7 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.vote.controller;
 
-import com.code4ro.legalconsultation.model.dto.VoteDto;
-import com.code4ro.legalconsultation.service.api.VoteService;
+import com.code4ro.legalconsultation.vote.model.dto.VoteDto;
+import com.code4ro.legalconsultation.vote.service.VoteService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;

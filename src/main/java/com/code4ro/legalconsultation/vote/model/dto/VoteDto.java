@@ -1,6 +1,6 @@
-package com.code4ro.legalconsultation.model.dto;
+package com.code4ro.legalconsultation.vote.model.dto;
 
-import com.code4ro.legalconsultation.model.persistence.VoteType;
+import com.code4ro.legalconsultation.vote.model.persistence.VoteType;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

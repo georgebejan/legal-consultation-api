@@ -1,14 +1,15 @@
-package com.code4ro.legalconsultation.service.impl;
+package com.code4ro.legalconsultation.vote.service;
 
 import com.code4ro.legalconsultation.comment.model.persistence.Comment;
 import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
 import com.code4ro.legalconsultation.comment.factory.CommentFactory;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;
-import com.code4ro.legalconsultation.model.dto.VoteDto;
+import com.code4ro.legalconsultation.vote.model.dto.VoteDto;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
-import com.code4ro.legalconsultation.model.persistence.Vote;
-import com.code4ro.legalconsultation.repository.VoteRepository;
+import com.code4ro.legalconsultation.vote.model.persistence.Vote;
+import com.code4ro.legalconsultation.vote.repository.VoteRepository;
+import com.code4ro.legalconsultation.vote.service.impl.VoteServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +21,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.UUID;
 
-import static com.code4ro.legalconsultation.model.persistence.VoteType.*;
+import static com.code4ro.legalconsultation.vote.model.persistence.VoteType.*;
 import static com.code4ro.legalconsultation.user.model.persistence.UserRole.ADMIN;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;

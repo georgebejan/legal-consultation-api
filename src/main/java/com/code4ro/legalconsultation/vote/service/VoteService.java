@@ -1,6 +1,6 @@
-package com.code4ro.legalconsultation.service.api;
+package com.code4ro.legalconsultation.vote.service;
 
-import com.code4ro.legalconsultation.model.dto.VoteDto;
+import com.code4ro.legalconsultation.vote.model.dto.VoteDto;
 
 import java.util.Set;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package com.code4ro.legalconsultation.model.persistence;
+package com.code4ro.legalconsultation.vote.model.persistence;
 
 public enum VoteType {
     UP(1),
