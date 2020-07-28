@@ -1,11 +1,11 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.invitation.controller;
 
 import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;
-import com.code4ro.legalconsultation.model.persistence.Invitation;
-import com.code4ro.legalconsultation.model.persistence.InvitationStatus;
+import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
+import com.code4ro.legalconsultation.invitation.model.persistence.InvitationStatus;
 import com.code4ro.legalconsultation.user.model.persistence.User;
-import com.code4ro.legalconsultation.repository.InvitationRepository;
+import com.code4ro.legalconsultation.invitation.repository.InvitationRepository;
 import com.code4ro.legalconsultation.user.repository.UserRepository;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

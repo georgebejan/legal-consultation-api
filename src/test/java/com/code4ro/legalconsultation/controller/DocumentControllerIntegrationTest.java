@@ -2,7 +2,7 @@ package com.code4ro.legalconsultation.controller;
 
 import com.amazonaws.util.json.Jackson;
 import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
-import com.code4ro.legalconsultation.factory.CommentFactory;
+import com.code4ro.legalconsultation.comment.factory.CommentFactory;
 import com.code4ro.legalconsultation.factory.DocumentNodeFactory;
 import com.code4ro.legalconsultation.factory.PdfFileFactory;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;

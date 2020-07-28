@@ -1,7 +1,7 @@
 package com.code4ro.legalconsultation.config.mail;
 
 import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
-import com.code4ro.legalconsultation.model.persistence.Invitation;
+import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.service.api.MailApi;
 import org.slf4j.Logger;

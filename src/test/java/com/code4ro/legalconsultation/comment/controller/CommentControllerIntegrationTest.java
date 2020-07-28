@@ -1,4 +1,4 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.comment.controller;
 
 import com.code4ro.legalconsultation.comment.model.dto.CommentDetailDto;
 import com.code4ro.legalconsultation.comment.model.dto.CommentDto;
@@ -6,7 +6,7 @@ import com.code4ro.legalconsultation.comment.model.persistence.Comment;
 import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
-import com.code4ro.legalconsultation.factory.CommentFactory;
+import com.code4ro.legalconsultation.comment.factory.CommentFactory;
 import com.code4ro.legalconsultation.factory.DocumentNodeFactory;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
 import com.code4ro.legalconsultation.model.persistence.DocumentNode;

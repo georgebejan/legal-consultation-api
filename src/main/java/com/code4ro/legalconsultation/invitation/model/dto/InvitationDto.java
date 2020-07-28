@@ -1,4 +1,4 @@
-package com.code4ro.legalconsultation.model.dto;
+package com.code4ro.legalconsultation.invitation.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

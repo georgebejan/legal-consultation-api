@@ -1,7 +1,7 @@
-package com.code4ro.legalconsultation.converters;
+package com.code4ro.legalconsultation.invitation.mapper;
 
-import com.code4ro.legalconsultation.model.dto.InvitationDto;
-import com.code4ro.legalconsultation.model.persistence.Invitation;
+import com.code4ro.legalconsultation.invitation.model.dto.InvitationDto;
+import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;

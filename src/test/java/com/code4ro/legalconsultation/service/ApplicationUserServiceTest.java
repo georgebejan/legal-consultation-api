@@ -6,7 +6,7 @@ import com.code4ro.legalconsultation.model.dto.SignUpRequest;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.repository.ApplicationUserRepository;
-import com.code4ro.legalconsultation.service.api.InvitationService;
+import com.code4ro.legalconsultation.invitation.service.InvitationService;
 import com.code4ro.legalconsultation.service.impl.ApplicationUserService;
 import com.code4ro.legalconsultation.user.service.UserService;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.code4ro.legalconsultation.service;
+package com.code4ro.legalconsultation.comment.service;
 
 import com.code4ro.legalconsultation.comment.mapper.CommentMapper;
 import com.code4ro.legalconsultation.comment.model.dto.CommentDto;
@@ -7,7 +7,7 @@ import com.code4ro.legalconsultation.comment.model.persistence.CommentStatus;
 import com.code4ro.legalconsultation.comment.service.impl.CommentServiceImpl;
 import com.code4ro.legalconsultation.common.exceptions.LegalValidationException;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
-import com.code4ro.legalconsultation.factory.CommentFactory;
+import com.code4ro.legalconsultation.comment.factory.CommentFactory;
 import com.code4ro.legalconsultation.factory.DocumentNodeFactory;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;

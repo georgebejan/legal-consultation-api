@@ -1,9 +1,9 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.invitation.controller;
 
-import com.code4ro.legalconsultation.converters.InvitationMapper;
-import com.code4ro.legalconsultation.model.dto.InvitationDto;
-import com.code4ro.legalconsultation.model.persistence.Invitation;
-import com.code4ro.legalconsultation.service.api.InvitationService;
+import com.code4ro.legalconsultation.invitation.mapper.InvitationMapper;
+import com.code4ro.legalconsultation.invitation.model.dto.InvitationDto;
+import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
+import com.code4ro.legalconsultation.invitation.service.InvitationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

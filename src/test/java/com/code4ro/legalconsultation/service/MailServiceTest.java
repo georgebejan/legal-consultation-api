@@ -1,7 +1,7 @@
 package com.code4ro.legalconsultation.service;
 
 import com.code4ro.legalconsultation.common.exceptions.LegalValidationException;
-import com.code4ro.legalconsultation.model.persistence.Invitation;
+import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.service.impl.I18nService;
 import com.code4ro.legalconsultation.service.impl.MailService;

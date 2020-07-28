@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.service.api;
 
-import com.code4ro.legalconsultation.model.persistence.Invitation;
+import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
 import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import java.util.List;
