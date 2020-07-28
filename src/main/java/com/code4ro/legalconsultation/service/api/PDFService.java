@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.service.api;
 
-import com.code4ro.legalconsultation.model.persistence.DocumentConsolidated;
+import com.code4ro.legalconsultation.document.consolidated.model.persistence.DocumentConsolidated;
 import com.code4ro.legalconsultation.model.persistence.PdfHandle;
 import org.springframework.web.multipart.MultipartFile;
 

@@ -1,8 +1,8 @@
-package com.code4ro.legalconsultation.model.dto;
+package com.code4ro.legalconsultation.document.metadata.model.dto;
 
 import com.code4ro.legalconsultation.model.dto.dtoValidators.UniqueDocumentFilePath;
 import com.code4ro.legalconsultation.model.dto.dtoValidators.UniqueDocumentNumberConstraint;
-import com.code4ro.legalconsultation.model.persistence.DocumentType;
+import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentType;
 import lombok.*;
 
 import javax.validation.constraints.NotNull;

@@ -1,5 +1,6 @@
-package com.code4ro.legalconsultation.model.dto;
+package com.code4ro.legalconsultation.document.configuration.model.dto;
 
+import com.code4ro.legalconsultation.model.dto.BaseEntityDto;
 import lombok.Getter;
 import lombok.Setter;
 

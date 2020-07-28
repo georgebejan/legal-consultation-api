@@ -1,8 +1,10 @@
-package com.code4ro.legalconsultation.service.api;
+package com.code4ro.legalconsultation.document.core.service;
 
+import com.code4ro.legalconsultation.document.consolidated.model.dto.DocumentConsolidatedDto;
+import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentViewDto;
 import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentMetadataDto;
 import com.code4ro.legalconsultation.model.dto.*;
-import com.code4ro.legalconsultation.model.persistence.DocumentConsolidated;
+import com.code4ro.legalconsultation.document.consolidated.model.persistence.DocumentConsolidated;
 import com.code4ro.legalconsultation.model.persistence.DocumentExportFormat;
 import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.user.model.dto.UserDto;

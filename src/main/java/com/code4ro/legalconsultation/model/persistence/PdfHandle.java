@@ -1,5 +1,6 @@
 package com.code4ro.legalconsultation.model.persistence;
 
+import com.code4ro.legalconsultation.document.consolidated.model.persistence.DocumentConsolidated;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

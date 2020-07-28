@@ -1,7 +1,12 @@
-package com.code4ro.legalconsultation.service.impl;
+package com.code4ro.legalconsultation.document.core.service.impl;
 
 import com.code4ro.legalconsultation.converters.DocumentConsolidatedMapper;
 import com.code4ro.legalconsultation.converters.PdfHandleMapper;
+import com.code4ro.legalconsultation.document.configuration.model.persistence.DocumentConfiguration;
+import com.code4ro.legalconsultation.document.consolidated.model.dto.DocumentConsolidatedDto;
+import com.code4ro.legalconsultation.document.consolidated.service.impl.DocumentConsolidatedService;
+import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentViewDto;
+import com.code4ro.legalconsultation.document.consolidated.model.persistence.DocumentConsolidated;
 import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentMetadataDto;
 import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.document.metadata.service.DocumentMetadataService;
@@ -16,7 +21,7 @@ import com.code4ro.legalconsultation.user.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.code4ro.legalconsultation.document.node.service.DocumentNodeService;
-import com.code4ro.legalconsultation.service.api.DocumentService;
+import com.code4ro.legalconsultation.document.core.service.DocumentService;
 import com.code4ro.legalconsultation.service.api.PDFService;
 import com.code4ro.legalconsultation.service.api.StorageApi;
 import com.code4ro.legalconsultation.service.export.DocumentExporter;

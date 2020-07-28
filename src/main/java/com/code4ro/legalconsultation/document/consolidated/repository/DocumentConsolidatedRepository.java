@@ -1,6 +1,6 @@
-package com.code4ro.legalconsultation.repository;
+package com.code4ro.legalconsultation.document.consolidated.repository;
 
-import com.code4ro.legalconsultation.model.persistence.DocumentConsolidated;
+import com.code4ro.legalconsultation.document.consolidated.model.persistence.DocumentConsolidated;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

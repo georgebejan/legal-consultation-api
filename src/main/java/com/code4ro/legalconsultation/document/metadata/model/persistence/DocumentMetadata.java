@@ -1,7 +1,6 @@
 package com.code4ro.legalconsultation.document.metadata.model.persistence;
 
 import com.code4ro.legalconsultation.model.persistence.BaseEntity;
-import com.code4ro.legalconsultation.model.persistence.DocumentType;
 import lombok.Getter;
 import lombok.Setter;
 
