@@ -1,4 +1,4 @@
-package com.code4ro.legalconsultation.model.persistence;
+package com.code4ro.legalconsultation.document.node.model.persistence;
 
 public enum DocumentNodeType {
     DOCUMENT,

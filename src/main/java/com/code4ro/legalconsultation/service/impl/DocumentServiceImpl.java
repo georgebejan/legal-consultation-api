@@ -2,6 +2,7 @@ package com.code4ro.legalconsultation.service.impl;
 
 import com.code4ro.legalconsultation.converters.DocumentConsolidatedMapper;
 import com.code4ro.legalconsultation.converters.PdfHandleMapper;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.user.mapper.UserMapper;
 import com.code4ro.legalconsultation.model.dto.*;
 import com.code4ro.legalconsultation.model.persistence.*;
@@ -11,7 +12,7 @@ import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.user.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.code4ro.legalconsultation.service.api.DocumentNodeService;
+import com.code4ro.legalconsultation.document.node.service.DocumentNodeService;
 import com.code4ro.legalconsultation.service.api.DocumentService;
 import com.code4ro.legalconsultation.service.api.PDFService;
 import com.code4ro.legalconsultation.service.api.StorageApi;

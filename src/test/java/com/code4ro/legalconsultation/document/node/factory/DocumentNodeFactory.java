@@ -1,13 +1,12 @@
-package com.code4ro.legalconsultation.factory;
+package com.code4ro.legalconsultation.document.node.factory;
 
-import com.code4ro.legalconsultation.model.persistence.DocumentNode;
-import com.code4ro.legalconsultation.model.persistence.DocumentNodeType;
-import com.code4ro.legalconsultation.repository.DocumentNodeRepository;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNodeType;
+import com.code4ro.legalconsultation.document.node.repository.DocumentNodeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 @Component

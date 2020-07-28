@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.service.impl.pdf.parser;
 
-import com.code4ro.legalconsultation.model.persistence.DocumentNodeType;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNodeType;
 import org.springframework.stereotype.Component;
 
 import java.util.regex.Matcher;

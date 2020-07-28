@@ -1,9 +1,9 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.document.node.controller;
 
 import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
-import com.code4ro.legalconsultation.converters.DocumentNodeMapper;
-import com.code4ro.legalconsultation.model.persistence.DocumentNode;
-import com.code4ro.legalconsultation.factory.DocumentNodeFactory;
+import com.code4ro.legalconsultation.document.node.mapper.DocumentNodeMapper;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.document.node.factory.DocumentNodeFactory;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MvcResult;
-import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.transaction.annotation.Transactional;
 
 import static org.assertj.core.api.Assertions.assertThat;

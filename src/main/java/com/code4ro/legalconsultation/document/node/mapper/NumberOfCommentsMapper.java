@@ -1,7 +1,7 @@
-package com.code4ro.legalconsultation.converters;
+package com.code4ro.legalconsultation.document.node.mapper;
 
-import com.code4ro.legalconsultation.model.dto.documentnode.DocumentNodeDto;
-import com.code4ro.legalconsultation.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.document.node.model.dto.DocumentNodeDto;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.comment.repository.CommentRepository;
 import org.mapstruct.AfterMapping;
 import org.mapstruct.Mapper;

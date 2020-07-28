@@ -1,7 +1,7 @@
 package com.code4ro.legalconsultation.service.impl.pdf.parser;
 
-import com.code4ro.legalconsultation.model.persistence.DocumentNode;
-import com.code4ro.legalconsultation.model.persistence.DocumentNodeType;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNodeType;
 import com.code4ro.legalconsultation.service.impl.pdf.BoldAreasRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;

@@ -5,7 +5,7 @@ import lombok.Setter;
 import org.springframework.data.annotation.LastModifiedDate;
 import com.code4ro.legalconsultation.model.persistence.BaseEntity;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
-import com.code4ro.legalconsultation.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 
 import javax.persistence.*;
 import java.util.Date;

@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.model.dto;
 
-import com.code4ro.legalconsultation.model.dto.documentnode.DocumentNodeDto;
+import com.code4ro.legalconsultation.document.node.model.dto.DocumentNodeDto;
 import com.code4ro.legalconsultation.user.model.dto.UserDto;
 import lombok.Getter;
 import lombok.Setter;

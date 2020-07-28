@@ -2,6 +2,7 @@ package com.code4ro.legalconsultation.vote.service;
 
 import com.code4ro.legalconsultation.comment.model.persistence.Comment;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.vote.model.dto.VoteDto;
 import com.code4ro.legalconsultation.model.persistence.*;
 import com.code4ro.legalconsultation.vote.repository.VoteRepository;

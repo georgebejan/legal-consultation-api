@@ -1,7 +1,7 @@
-package com.code4ro.legalconsultation.model.dto.documentnode;
+package com.code4ro.legalconsultation.document.node.model.dto;
 
 import com.code4ro.legalconsultation.model.dto.BaseEntityDto;
-import com.code4ro.legalconsultation.model.persistence.DocumentNodeType;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNodeType;
 import lombok.Getter;
 import lombok.Setter;
 

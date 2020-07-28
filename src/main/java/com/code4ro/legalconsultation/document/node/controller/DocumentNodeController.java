@@ -1,11 +1,11 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.document.node.controller;
 
-import com.code4ro.legalconsultation.converters.DocumentNodeMapper;
-import com.code4ro.legalconsultation.model.dto.documentnode.DocumentNodeCreateDto;
-import com.code4ro.legalconsultation.model.dto.documentnode.DocumentNodeDto;
-import com.code4ro.legalconsultation.model.dto.documentnode.DocumentNodeSimpleDto;
-import com.code4ro.legalconsultation.model.persistence.DocumentNode;
-import com.code4ro.legalconsultation.service.api.DocumentNodeService;
+import com.code4ro.legalconsultation.document.node.mapper.DocumentNodeMapper;
+import com.code4ro.legalconsultation.document.node.model.dto.DocumentNodeCreateDto;
+import com.code4ro.legalconsultation.document.node.model.dto.DocumentNodeDto;
+import com.code4ro.legalconsultation.document.node.model.dto.DocumentNodeSimpleDto;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.document.node.service.DocumentNodeService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;

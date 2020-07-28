@@ -8,7 +8,7 @@ import com.code4ro.legalconsultation.model.dto.DocumentMetadataDto;
 import com.code4ro.legalconsultation.model.persistence.DocumentConsolidated;
 import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.model.persistence.DocumentExportFormat;
-import com.code4ro.legalconsultation.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.model.persistence.PdfHandle;
 import com.code4ro.legalconsultation.service.api.MailApi;
 import com.code4ro.legalconsultation.service.export.DocumentExporterFactory;

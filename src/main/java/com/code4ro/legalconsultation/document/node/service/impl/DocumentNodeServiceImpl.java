@@ -1,9 +1,9 @@
-package com.code4ro.legalconsultation.service.impl;
+package com.code4ro.legalconsultation.document.node.service.impl;
 
-import com.code4ro.legalconsultation.model.dto.documentnode.DocumentNodeSimpleDto;
-import com.code4ro.legalconsultation.model.persistence.DocumentNode;
-import com.code4ro.legalconsultation.repository.DocumentNodeRepository;
-import com.code4ro.legalconsultation.service.api.DocumentNodeService;
+import com.code4ro.legalconsultation.document.node.model.dto.DocumentNodeSimpleDto;
+import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.document.node.repository.DocumentNodeRepository;
+import com.code4ro.legalconsultation.document.node.service.DocumentNodeService;
 import com.code4ro.legalconsultation.service.impl.pdf.parser.DocumentParser;
 import com.code4ro.legalconsultation.service.impl.pdf.parser.DocumentParsingMetadata;
 import lombok.extern.slf4j.Slf4j;
