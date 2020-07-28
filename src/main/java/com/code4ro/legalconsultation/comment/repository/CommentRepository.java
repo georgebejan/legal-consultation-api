@@ -1,6 +1,6 @@
-package com.code4ro.legalconsultation.repository;
+package com.code4ro.legalconsultation.comment.repository;
 
-import com.code4ro.legalconsultation.model.persistence.Comment;
+import com.code4ro.legalconsultation.comment.model.persistence.Comment;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

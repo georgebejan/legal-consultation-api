@@ -1,14 +1,14 @@
 package com.code4ro.legalconsultation.service.impl;
 
+import com.code4ro.legalconsultation.comment.model.persistence.Comment;
+import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
 import com.code4ro.legalconsultation.factory.CommentFactory;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;
 import com.code4ro.legalconsultation.model.dto.VoteDto;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
-import com.code4ro.legalconsultation.model.persistence.Comment;
 import com.code4ro.legalconsultation.model.persistence.Vote;
 import com.code4ro.legalconsultation.repository.VoteRepository;
-import com.code4ro.legalconsultation.service.api.CommentService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,10 +20,9 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.UUID;
 
-import static com.code4ro.legalconsultation.user.model.persistence.UserRole.ADMIN;
 import static com.code4ro.legalconsultation.model.persistence.VoteType.*;
+import static com.code4ro.legalconsultation.user.model.persistence.UserRole.ADMIN;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -31,6 +30,7 @@ import static org.mockito.Mockito.when;
 @RunWith(MockitoJUnitRunner.class)
 public class VoteServiceImplSaveOrUpdateTest {
 
+    private final CommentFactory commentFactory = new CommentFactory();
     @Mock
     private VoteRepository voteRepository;
     @Mock
@@ -39,11 +39,8 @@ public class VoteServiceImplSaveOrUpdateTest {
     private CommentService commentService;
     @InjectMocks
     private VoteServiceImpl voteService;
-
     @Captor
     private ArgumentCaptor<Vote> voteArgumentCaptor;
-
-    private final CommentFactory commentFactory = new CommentFactory();
     private ApplicationUser currentUser;
     private Comment comment;
     private UUID id;
@@ -80,7 +77,7 @@ public class VoteServiceImplSaveOrUpdateTest {
         final Vote upVote = voteArgumentCaptor.getValue();
         assertThat(upVote.getOwner()).isEqualTo(currentUser);
         assertThat(upVote.getComment()).isEqualTo(comment);
-        assertEquals(expectedUpVoteDto.getVote(), upVote.getVote());
+        assertThat(expectedUpVoteDto.getVote()).isEqualTo(upVote.getVote());
     }
 
     @Test
@@ -96,7 +93,7 @@ public class VoteServiceImplSaveOrUpdateTest {
 
         assertThat(actualDownVote.getOwner()).isEqualTo(currentUser);
         assertThat(actualDownVote.getComment()).isEqualTo(comment);
-        assertEquals(expectedDownVoteDto.getVote(), actualDownVote.getVote());
+        assertThat(expectedDownVoteDto.getVote()).isEqualTo(actualDownVote.getVote());
     }
 
     @Test
@@ -121,7 +118,7 @@ public class VoteServiceImplSaveOrUpdateTest {
 
         assertThat(nullVote.getOwner()).isEqualTo(currentUser);
         assertThat(nullVote.getComment()).isEqualTo(comment);
-        assertEquals(ABSTAIN, nullVote.getVote());
+        assertThat(ABSTAIN).isEqualTo(nullVote.getVote());
     }
 
     @Test
@@ -138,7 +135,7 @@ public class VoteServiceImplSaveOrUpdateTest {
 
         assertThat(actualDownVote.getOwner()).isEqualTo(currentUser);
         assertThat(actualDownVote.getComment()).isEqualTo(comment);
-        assertEquals(expectedDownVoteDto.getVote(), actualDownVote.getVote());
+        assertThat(expectedDownVoteDto.getVote()).isEqualTo(actualDownVote.getVote());
     }
 
     @Test
@@ -155,7 +152,7 @@ public class VoteServiceImplSaveOrUpdateTest {
 
         assertThat(actualDownVote.getOwner()).isEqualTo(currentUser);
         assertThat(actualDownVote.getComment()).isEqualTo(comment);
-        assertEquals(expectedDownVoteDto.getVote(), actualDownVote.getVote());
+        assertThat(expectedDownVoteDto.getVote()).isEqualTo(actualDownVote.getVote());
     }
 
     @Test
@@ -172,6 +169,6 @@ public class VoteServiceImplSaveOrUpdateTest {
 
         assertThat(actualDownVote.getOwner()).isEqualTo(currentUser);
         assertThat(actualDownVote.getComment()).isEqualTo(comment);
-        assertEquals(expectedDownVoteDto.getVote(), actualDownVote.getVote());
+        assertThat(expectedDownVoteDto.getVote()).isEqualTo(actualDownVote.getVote());
     }
 }

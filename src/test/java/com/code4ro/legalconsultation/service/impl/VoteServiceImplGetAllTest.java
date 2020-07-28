@@ -1,5 +1,6 @@
 package com.code4ro.legalconsultation.service.impl;
 
+import com.code4ro.legalconsultation.comment.model.persistence.Comment;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
 import com.code4ro.legalconsultation.model.dto.VoteDto;
 import com.code4ro.legalconsultation.model.persistence.*;

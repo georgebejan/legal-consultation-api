@@ -8,7 +8,7 @@ import com.code4ro.legalconsultation.user.mapper.UserMapperImpl;
 import com.code4ro.legalconsultation.user.model.dto.UserDto;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.user.model.persistence.UserRole;
-import com.code4ro.legalconsultation.repository.UserRepository;
+import com.code4ro.legalconsultation.user.repository.UserRepository;
 import com.code4ro.legalconsultation.service.api.InvitationService;
 import com.code4ro.legalconsultation.service.impl.MailService;
 import org.junit.Before;

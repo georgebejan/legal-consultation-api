@@ -1,10 +1,10 @@
 package com.code4ro.legalconsultation.factory;
 
-import com.code4ro.legalconsultation.model.dto.CommentDetailDto;
-import com.code4ro.legalconsultation.model.dto.CommentDto;
+import com.code4ro.legalconsultation.comment.model.dto.CommentDetailDto;
+import com.code4ro.legalconsultation.comment.model.dto.CommentDto;
+import com.code4ro.legalconsultation.comment.model.persistence.Comment;
+import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
-import com.code4ro.legalconsultation.model.persistence.Comment;
-import com.code4ro.legalconsultation.service.api.CommentService;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

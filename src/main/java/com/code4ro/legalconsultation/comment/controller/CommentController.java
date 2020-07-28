@@ -1,11 +1,11 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.comment.controller;
 
-import com.code4ro.legalconsultation.converters.CommentMapper;
-import com.code4ro.legalconsultation.model.dto.CommentDetailDto;
-import com.code4ro.legalconsultation.model.dto.CommentDto;
+import com.code4ro.legalconsultation.comment.mapper.CommentMapper;
+import com.code4ro.legalconsultation.comment.model.dto.CommentDetailDto;
+import com.code4ro.legalconsultation.comment.model.dto.CommentDto;
+import com.code4ro.legalconsultation.comment.model.persistence.Comment;
+import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.model.dto.PageDto;
-import com.code4ro.legalconsultation.model.persistence.Comment;
-import com.code4ro.legalconsultation.service.api.CommentService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
-import static com.code4ro.legalconsultation.model.persistence.CommentStatus.APPROVED;
-import static com.code4ro.legalconsultation.model.persistence.CommentStatus.REJECTED;
+import static com.code4ro.legalconsultation.comment.model.persistence.CommentStatus.APPROVED;
+import static com.code4ro.legalconsultation.comment.model.persistence.CommentStatus.REJECTED;
 
 @RestController
 @RequestMapping("/api/documentnodes/{nodeId}/comments")

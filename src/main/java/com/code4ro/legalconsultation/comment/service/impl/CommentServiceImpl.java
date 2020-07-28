@@ -1,13 +1,16 @@
-package com.code4ro.legalconsultation.service.impl;
+package com.code4ro.legalconsultation.comment.service.impl;
 
+import com.code4ro.legalconsultation.comment.mapper.CommentMapper;
+import com.code4ro.legalconsultation.comment.model.dto.CommentDetailDto;
+import com.code4ro.legalconsultation.comment.model.dto.CommentDto;
+import com.code4ro.legalconsultation.comment.model.persistence.Comment;
+import com.code4ro.legalconsultation.comment.model.persistence.CommentStatus;
+import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.common.exceptions.LegalValidationException;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
-import com.code4ro.legalconsultation.converters.CommentMapper;
-import com.code4ro.legalconsultation.model.dto.CommentDetailDto;
-import com.code4ro.legalconsultation.model.dto.CommentDto;
-import com.code4ro.legalconsultation.model.persistence.*;
-import com.code4ro.legalconsultation.repository.CommentRepository;
-import com.code4ro.legalconsultation.service.api.CommentService;
+import com.code4ro.legalconsultation.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
+import com.code4ro.legalconsultation.comment.repository.CommentRepository;
 import com.code4ro.legalconsultation.service.api.DocumentNodeService;
 import com.code4ro.legalconsultation.user.model.persistence.UserRole;
 import org.springframework.data.domain.Page;

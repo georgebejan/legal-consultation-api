@@ -1,12 +1,12 @@
 package com.code4ro.legalconsultation.service;
 
+import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.converters.DocumentConsolidatedMapper;
 import com.code4ro.legalconsultation.model.persistence.DocumentConfiguration;
 import com.code4ro.legalconsultation.model.persistence.DocumentConsolidated;
 import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.repository.DocumentConsolidatedRepository;
-import com.code4ro.legalconsultation.service.api.CommentService;
 import com.code4ro.legalconsultation.service.impl.DocumentConsolidatedService;
 import com.code4ro.legalconsultation.factory.DocumentNodeFactory;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;

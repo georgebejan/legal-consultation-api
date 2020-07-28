@@ -1,4 +1,4 @@
-package com.code4ro.legalconsultation.repository;
+package com.code4ro.legalconsultation.user.repository;
 
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import org.springframework.data.jpa.repository.JpaRepository;

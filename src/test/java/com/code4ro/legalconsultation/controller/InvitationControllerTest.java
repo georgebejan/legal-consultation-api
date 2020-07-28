@@ -6,7 +6,7 @@ import com.code4ro.legalconsultation.model.persistence.Invitation;
 import com.code4ro.legalconsultation.model.persistence.InvitationStatus;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.repository.InvitationRepository;
-import com.code4ro.legalconsultation.repository.UserRepository;
+import com.code4ro.legalconsultation.user.repository.UserRepository;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

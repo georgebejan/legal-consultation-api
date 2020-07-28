@@ -1,4 +1,4 @@
-package com.code4ro.legalconsultation.model.dto;
+package com.code4ro.legalconsultation.comment.model.dto;
 
 import lombok.Getter;
 import lombok.Setter;

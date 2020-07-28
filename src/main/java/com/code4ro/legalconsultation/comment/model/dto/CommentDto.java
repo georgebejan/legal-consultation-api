@@ -1,6 +1,7 @@
-package com.code4ro.legalconsultation.model.dto;
+package com.code4ro.legalconsultation.comment.model.dto;
 
-import com.code4ro.legalconsultation.model.persistence.CommentStatus;
+import com.code4ro.legalconsultation.comment.model.persistence.CommentStatus;
+import com.code4ro.legalconsultation.model.dto.BaseEntityDto;
 import lombok.Getter;
 import lombok.Setter;
 

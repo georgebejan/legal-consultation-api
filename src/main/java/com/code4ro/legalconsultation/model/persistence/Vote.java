@@ -1,5 +1,6 @@
 package com.code4ro.legalconsultation.model.persistence;
 
+import com.code4ro.legalconsultation.comment.model.persistence.Comment;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

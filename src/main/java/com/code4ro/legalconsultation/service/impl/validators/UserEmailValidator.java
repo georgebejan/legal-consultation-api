@@ -1,7 +1,7 @@
 package com.code4ro.legalconsultation.service.impl.validators;
 
 import com.code4ro.legalconsultation.model.dto.dtoValidators.UniqueUserEmailConstraint;
-import com.code4ro.legalconsultation.repository.UserRepository;
+import com.code4ro.legalconsultation.user.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 

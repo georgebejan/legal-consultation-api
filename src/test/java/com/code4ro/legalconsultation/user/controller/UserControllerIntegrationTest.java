@@ -4,7 +4,7 @@ import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegra
 import com.code4ro.legalconsultation.user.model.dto.UserDto;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.user.model.persistence.UserRole;
-import com.code4ro.legalconsultation.repository.UserRepository;
+import com.code4ro.legalconsultation.user.repository.UserRepository;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,16 +1,16 @@
 package com.code4ro.legalconsultation.controller;
 
+import com.code4ro.legalconsultation.comment.model.dto.CommentDetailDto;
+import com.code4ro.legalconsultation.comment.model.dto.CommentDto;
+import com.code4ro.legalconsultation.comment.model.persistence.Comment;
+import com.code4ro.legalconsultation.comment.service.CommentService;
 import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
 import com.code4ro.legalconsultation.config.security.CurrentUserService;
 import com.code4ro.legalconsultation.factory.CommentFactory;
 import com.code4ro.legalconsultation.factory.DocumentNodeFactory;
-import com.code4ro.legalconsultation.model.dto.CommentDetailDto;
-import com.code4ro.legalconsultation.model.dto.CommentDto;
 import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
-import com.code4ro.legalconsultation.model.persistence.Comment;
 import com.code4ro.legalconsultation.model.persistence.DocumentNode;
-import com.code4ro.legalconsultation.repository.CommentRepository;
-import com.code4ro.legalconsultation.service.api.CommentService;
+import com.code4ro.legalconsultation.comment.repository.CommentRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,8 +21,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 
-import static com.code4ro.legalconsultation.model.persistence.CommentStatus.APPROVED;
-import static com.code4ro.legalconsultation.model.persistence.CommentStatus.REJECTED;
+import static com.code4ro.legalconsultation.comment.model.persistence.CommentStatus.APPROVED;
+import static com.code4ro.legalconsultation.comment.model.persistence.CommentStatus.REJECTED;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
