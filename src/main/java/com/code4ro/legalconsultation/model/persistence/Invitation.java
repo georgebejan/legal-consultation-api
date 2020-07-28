@@ -1,6 +1,7 @@
 package com.code4ro.legalconsultation.model.persistence;
 
 
+import com.code4ro.legalconsultation.user.model.persistence.User;
 import lombok.Getter;
 import lombok.Setter;
 

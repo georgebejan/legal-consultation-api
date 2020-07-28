@@ -1,21 +1,19 @@
-package com.code4ro.legalconsultation.service;
+package com.code4ro.legalconsultation.user.service;
 
 import com.code4ro.legalconsultation.common.exceptions.LegalValidationException;
-import com.code4ro.legalconsultation.converters.UserMapper;
-import com.code4ro.legalconsultation.converters.UserMapperImpl;
+import com.code4ro.legalconsultation.user.mapper.UserMapper;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;
-import com.code4ro.legalconsultation.model.dto.UserDto;
 import com.code4ro.legalconsultation.model.persistence.Invitation;
-import com.code4ro.legalconsultation.model.persistence.User;
-import com.code4ro.legalconsultation.model.persistence.UserRole;
+import com.code4ro.legalconsultation.user.mapper.UserMapperImpl;
+import com.code4ro.legalconsultation.user.model.dto.UserDto;
+import com.code4ro.legalconsultation.user.model.persistence.User;
+import com.code4ro.legalconsultation.user.model.persistence.UserRole;
 import com.code4ro.legalconsultation.repository.UserRepository;
 import com.code4ro.legalconsultation.service.api.InvitationService;
 import com.code4ro.legalconsultation.service.impl.MailService;
-import com.code4ro.legalconsultation.service.impl.UserService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;

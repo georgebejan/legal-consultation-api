@@ -20,7 +20,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.UUID;
 
-import static com.code4ro.legalconsultation.model.persistence.UserRole.ADMIN;
+import static com.code4ro.legalconsultation.user.model.persistence.UserRole.ADMIN;
 import static com.code4ro.legalconsultation.model.persistence.VoteType.*;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;

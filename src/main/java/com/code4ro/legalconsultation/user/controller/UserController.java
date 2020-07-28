@@ -1,12 +1,14 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.user.controller;
 
 import com.code4ro.legalconsultation.common.security.CurrentUser;
+import com.code4ro.legalconsultation.controller.CurrentUserDto;
+import com.code4ro.legalconsultation.controller.CurrentUserService;
 import com.code4ro.legalconsultation.converters.CurrentUserMapper;
-import com.code4ro.legalconsultation.converters.UserMapper;
 import com.code4ro.legalconsultation.model.dto.PageDto;
-import com.code4ro.legalconsultation.model.dto.UserDto;
-import com.code4ro.legalconsultation.model.persistence.User;
-import com.code4ro.legalconsultation.service.impl.UserService;
+import com.code4ro.legalconsultation.user.mapper.UserMapper;
+import com.code4ro.legalconsultation.user.model.dto.UserDto;
+import com.code4ro.legalconsultation.user.model.persistence.User;
+import com.code4ro.legalconsultation.user.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;

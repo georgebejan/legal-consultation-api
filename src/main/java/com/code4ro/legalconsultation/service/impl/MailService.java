@@ -3,7 +3,7 @@ package com.code4ro.legalconsultation.service.impl;
 import com.code4ro.legalconsultation.common.exceptions.LegalValidationException;
 import com.code4ro.legalconsultation.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.model.persistence.Invitation;
-import com.code4ro.legalconsultation.model.persistence.User;
+import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.service.api.MailApi;
 import freemarker.template.Configuration;
 import freemarker.template.Template;

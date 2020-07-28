@@ -11,6 +11,7 @@ import com.code4ro.legalconsultation.service.impl.CommentServiceImpl;
 import com.code4ro.legalconsultation.factory.CommentFactory;
 import com.code4ro.legalconsultation.factory.DocumentNodeFactory;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;
+import com.code4ro.legalconsultation.user.model.persistence.UserRole;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

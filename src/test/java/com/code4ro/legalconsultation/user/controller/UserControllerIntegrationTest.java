@@ -1,9 +1,9 @@
-package com.code4ro.legalconsultation.controller;
+package com.code4ro.legalconsultation.user.controller;
 
 import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
-import com.code4ro.legalconsultation.model.dto.UserDto;
-import com.code4ro.legalconsultation.model.persistence.User;
-import com.code4ro.legalconsultation.model.persistence.UserRole;
+import com.code4ro.legalconsultation.user.model.dto.UserDto;
+import com.code4ro.legalconsultation.user.model.persistence.User;
+import com.code4ro.legalconsultation.user.model.persistence.UserRole;
 import com.code4ro.legalconsultation.repository.UserRepository;
 import com.code4ro.legalconsultation.factory.RandomObjectFiller;
 import org.junit.Before;

@@ -1,7 +1,8 @@
-package com.code4ro.legalconsultation.model.dto;
+package com.code4ro.legalconsultation.user.model.dto;
 
+import com.code4ro.legalconsultation.model.dto.BaseEntityDto;
 import com.code4ro.legalconsultation.model.dto.dtoValidators.UniqueUserEmailConstraint;
-import com.code4ro.legalconsultation.model.persistence.UserRole;
+import com.code4ro.legalconsultation.user.model.persistence.UserRole;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

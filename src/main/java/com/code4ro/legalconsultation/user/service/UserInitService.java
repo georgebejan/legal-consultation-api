@@ -1,7 +1,7 @@
-package com.code4ro.legalconsultation.service.impl;
+package com.code4ro.legalconsultation.user.service;
 
-import com.code4ro.legalconsultation.model.dto.UserDto;
-import com.code4ro.legalconsultation.model.persistence.UserRole;
+import com.code4ro.legalconsultation.user.model.dto.UserDto;
+import com.code4ro.legalconsultation.user.model.persistence.UserRole;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

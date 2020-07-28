@@ -17,7 +17,7 @@ import java.util.Set;
 import java.util.UUID;
 
 import static com.code4ro.legalconsultation.factory.RandomObjectFiller.createAndFill;
-import static com.code4ro.legalconsultation.model.persistence.UserRole.ADMIN;
+import static com.code4ro.legalconsultation.user.model.persistence.UserRole.ADMIN;
 import static com.code4ro.legalconsultation.model.persistence.VoteType.DOWN;
 import static com.code4ro.legalconsultation.model.persistence.VoteType.UP;
 import static java.util.UUID.randomUUID;
