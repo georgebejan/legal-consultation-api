@@ -1,10 +1,10 @@
 package com.code4ro.legalconsultation.vote.service;
 
+import com.code4ro.legalconsultation.authentication.model.persistence.ApplicationUser;
 import com.code4ro.legalconsultation.comment.model.persistence.Comment;
-import com.code4ro.legalconsultation.config.security.CurrentUserService;
 import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
+import com.code4ro.legalconsultation.security.service.CurrentUserService;
 import com.code4ro.legalconsultation.vote.model.dto.VoteDto;
-import com.code4ro.legalconsultation.model.persistence.*;
 import com.code4ro.legalconsultation.vote.repository.VoteRepository;
 import com.code4ro.legalconsultation.vote.model.persistence.Vote;
 import com.code4ro.legalconsultation.vote.model.persistence.VoteType;
@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
-import static com.code4ro.legalconsultation.factory.RandomObjectFiller.createAndFill;
+import static com.code4ro.legalconsultation.core.factory.RandomObjectFiller.createAndFill;
 import static com.code4ro.legalconsultation.user.model.persistence.UserRole.ADMIN;
 import static com.code4ro.legalconsultation.vote.model.persistence.VoteType.DOWN;
 import static com.code4ro.legalconsultation.vote.model.persistence.VoteType.UP;

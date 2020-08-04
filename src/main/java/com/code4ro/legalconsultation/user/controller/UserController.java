@@ -1,10 +1,10 @@
 package com.code4ro.legalconsultation.user.controller;
 
-import com.code4ro.legalconsultation.common.security.CurrentUser;
-import com.code4ro.legalconsultation.controller.CurrentUserDto;
-import com.code4ro.legalconsultation.controller.CurrentUserService;
-import com.code4ro.legalconsultation.converters.CurrentUserMapper;
-import com.code4ro.legalconsultation.model.dto.PageDto;
+import com.code4ro.legalconsultation.authentication.model.persistence.ApplicationUser;
+import com.code4ro.legalconsultation.core.model.dto.PageDto;
+import com.code4ro.legalconsultation.security.mapper.CurrentUserMapper;
+import com.code4ro.legalconsultation.security.model.dto.CurrentUserDto;
+import com.code4ro.legalconsultation.security.service.CurrentUserService;
 import com.code4ro.legalconsultation.user.mapper.UserMapper;
 import com.code4ro.legalconsultation.user.model.dto.UserDto;
 import com.code4ro.legalconsultation.user.model.persistence.User;
@@ -113,7 +113,7 @@ public class UserController {
             produces = MediaType.APPLICATION_JSON_VALUE)
     @GetMapping(value = "/currentUser")
     public CurrentUserDto currentUser() {
-        CurrentUser currentUser = currentUserService.getCurrentUser();
+        final ApplicationUser currentUser = currentUserService.getCurrentUser();
         return currentUser != null ? currentUserMapper.map(currentUser) : null;
     }
 }

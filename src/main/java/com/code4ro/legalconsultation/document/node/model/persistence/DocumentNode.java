@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.document.node.model.persistence;
 
-import com.code4ro.legalconsultation.model.persistence.BaseEntity;
+import com.code4ro.legalconsultation.core.model.persistence.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;

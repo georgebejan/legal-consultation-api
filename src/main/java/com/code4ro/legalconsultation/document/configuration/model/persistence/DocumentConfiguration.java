@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.document.configuration.model.persistence;
 
-import com.code4ro.legalconsultation.model.persistence.BaseEntity;
+import com.code4ro.legalconsultation.core.model.persistence.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,8 +1,8 @@
 package com.code4ro.legalconsultation.user.service;
 
-import com.code4ro.legalconsultation.common.exceptions.LegalValidationException;
+import com.code4ro.legalconsultation.core.exception.LegalValidationException;
 import com.code4ro.legalconsultation.user.mapper.UserMapper;
-import com.code4ro.legalconsultation.factory.RandomObjectFiller;
+import com.code4ro.legalconsultation.core.factory.RandomObjectFiller;
 import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
 import com.code4ro.legalconsultation.user.mapper.UserMapperImpl;
 import com.code4ro.legalconsultation.user.model.dto.UserDto;
@@ -10,7 +10,7 @@ import com.code4ro.legalconsultation.user.model.persistence.User;
 import com.code4ro.legalconsultation.user.model.persistence.UserRole;
 import com.code4ro.legalconsultation.user.repository.UserRepository;
 import com.code4ro.legalconsultation.invitation.service.InvitationService;
-import com.code4ro.legalconsultation.service.impl.MailService;
+import com.code4ro.legalconsultation.mail.service.impl.MailService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -2,11 +2,11 @@ package com.code4ro.legalconsultation.vote.service;
 
 import com.code4ro.legalconsultation.comment.model.persistence.Comment;
 import com.code4ro.legalconsultation.comment.service.CommentService;
-import com.code4ro.legalconsultation.config.security.CurrentUserService;
 import com.code4ro.legalconsultation.comment.factory.CommentFactory;
-import com.code4ro.legalconsultation.factory.RandomObjectFiller;
+import com.code4ro.legalconsultation.core.factory.RandomObjectFiller;
+import com.code4ro.legalconsultation.security.service.CurrentUserService;
 import com.code4ro.legalconsultation.vote.model.dto.VoteDto;
-import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
+import com.code4ro.legalconsultation.authentication.model.persistence.ApplicationUser;
 import com.code4ro.legalconsultation.vote.model.persistence.Vote;
 import com.code4ro.legalconsultation.vote.repository.VoteRepository;
 import com.code4ro.legalconsultation.vote.service.impl.VoteServiceImpl;

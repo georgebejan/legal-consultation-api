@@ -1,14 +1,15 @@
 package com.code4ro.legalconsultation.document.core.controller;
 
+import com.code4ro.legalconsultation.core.model.dto.PageDto;
 import com.code4ro.legalconsultation.document.consolidated.model.dto.DocumentConsolidatedDto;
 import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentViewDto;
 import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentMetadataDto;
-import com.code4ro.legalconsultation.model.DocumentUserAssignmentDto;
-import com.code4ro.legalconsultation.model.dto.*;
+import com.code4ro.legalconsultation.document.consolidated.model.dto.DocumentUserAssignmentDto;
 import com.code4ro.legalconsultation.document.consolidated.model.persistence.DocumentConsolidated;
-import com.code4ro.legalconsultation.model.persistence.DocumentExportFormat;
+import com.code4ro.legalconsultation.document.export.model.DocumentExportFormat;
 import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.document.core.service.DocumentService;
+import com.code4ro.legalconsultation.pdf.model.dto.PdfHandleDto;
 import com.code4ro.legalconsultation.user.model.dto.UserDto;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

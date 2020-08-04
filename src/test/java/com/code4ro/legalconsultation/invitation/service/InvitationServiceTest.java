@@ -1,8 +1,8 @@
 package com.code4ro.legalconsultation.invitation.service;
 
-import com.code4ro.legalconsultation.common.exceptions.LegalValidationException;
-import com.code4ro.legalconsultation.factory.RandomObjectFiller;
-import com.code4ro.legalconsultation.model.dto.SignUpRequest;
+import com.code4ro.legalconsultation.core.exception.LegalValidationException;
+import com.code4ro.legalconsultation.core.factory.RandomObjectFiller;
+import com.code4ro.legalconsultation.authentication.model.dto.SignUpRequest;
 import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
 import com.code4ro.legalconsultation.invitation.model.persistence.InvitationStatus;
 import com.code4ro.legalconsultation.user.model.persistence.User;

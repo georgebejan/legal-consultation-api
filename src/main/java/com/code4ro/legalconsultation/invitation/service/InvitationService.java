@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.invitation.service;
 
-import com.code4ro.legalconsultation.model.dto.SignUpRequest;
+import com.code4ro.legalconsultation.authentication.model.dto.SignUpRequest;
 import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
 import com.code4ro.legalconsultation.user.model.persistence.User;
 

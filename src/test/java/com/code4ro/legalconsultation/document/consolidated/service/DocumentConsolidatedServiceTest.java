@@ -1,15 +1,14 @@
 package com.code4ro.legalconsultation.document.consolidated.service;
 
 import com.code4ro.legalconsultation.comment.service.CommentService;
-import com.code4ro.legalconsultation.converters.DocumentConsolidatedMapper;
+import com.code4ro.legalconsultation.document.consolidated.mapper.DocumentConsolidatedMapper;
 import com.code4ro.legalconsultation.document.configuration.model.persistence.DocumentConfiguration;
 import com.code4ro.legalconsultation.document.consolidated.model.persistence.DocumentConsolidated;
 import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentMetadata;
 import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.document.consolidated.repository.DocumentConsolidatedRepository;
-import com.code4ro.legalconsultation.document.consolidated.service.impl.DocumentConsolidatedService;
 import com.code4ro.legalconsultation.document.node.factory.DocumentNodeFactory;
-import com.code4ro.legalconsultation.factory.RandomObjectFiller;
+import com.code4ro.legalconsultation.core.factory.RandomObjectFiller;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -28,17 +27,15 @@ import static org.mockito.Mockito.when;
 @RunWith(MockitoJUnitRunner.class)
 public class DocumentConsolidatedServiceTest {
 
+    private final DocumentNodeFactory documentNodeFactory = new DocumentNodeFactory();
     @Mock
     private DocumentConsolidatedRepository documentConsolidatedRepository;
     @Mock
     private DocumentConsolidatedMapper mapperService;
     @Mock
     private CommentService commentService;
-
     @InjectMocks
     private DocumentConsolidatedService documentConsolidatedService;
-
-    private final DocumentNodeFactory documentNodeFactory = new DocumentNodeFactory();
 
     @Test
     public void getDocument() {

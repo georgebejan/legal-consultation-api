@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.document.node.controller;
 
-import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
+import com.code4ro.legalconsultation.core.controller.AbstractControllerIntegrationTest;
 import com.code4ro.legalconsultation.document.node.mapper.DocumentNodeMapper;
 import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.document.node.factory.DocumentNodeFactory;

@@ -1,11 +1,11 @@
 package com.code4ro.legalconsultation.document.core.controller;
 
 import com.amazonaws.util.json.Jackson;
-import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
+import com.code4ro.legalconsultation.core.controller.AbstractControllerIntegrationTest;
 import com.code4ro.legalconsultation.comment.factory.CommentFactory;
 import com.code4ro.legalconsultation.document.node.factory.DocumentNodeFactory;
-import com.code4ro.legalconsultation.factory.PdfFileFactory;
-import com.code4ro.legalconsultation.factory.RandomObjectFiller;
+import com.code4ro.legalconsultation.pdf.factory.PdfFileFactory;
+import com.code4ro.legalconsultation.core.factory.RandomObjectFiller;
 import com.code4ro.legalconsultation.document.metadata.model.dto.DocumentViewDto;
 import com.code4ro.legalconsultation.document.configuration.model.persistence.DocumentConfiguration;
 import com.code4ro.legalconsultation.document.consolidated.model.persistence.DocumentConsolidated;

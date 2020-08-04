@@ -1,7 +1,7 @@
 package com.code4ro.legalconsultation.invitation.controller;
 
-import com.code4ro.legalconsultation.common.controller.AbstractControllerIntegrationTest;
-import com.code4ro.legalconsultation.factory.RandomObjectFiller;
+import com.code4ro.legalconsultation.core.controller.AbstractControllerIntegrationTest;
+import com.code4ro.legalconsultation.core.factory.RandomObjectFiller;
 import com.code4ro.legalconsultation.invitation.model.persistence.Invitation;
 import com.code4ro.legalconsultation.invitation.model.persistence.InvitationStatus;
 import com.code4ro.legalconsultation.user.model.persistence.User;

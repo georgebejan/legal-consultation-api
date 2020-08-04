@@ -1,6 +1,6 @@
 package com.code4ro.legalconsultation.document.metadata.model.dto;
 
-import com.code4ro.legalconsultation.model.dto.BaseEntityDto;
+import com.code4ro.legalconsultation.core.model.dto.BaseEntityDto;
 import com.code4ro.legalconsultation.document.metadata.model.persistence.DocumentType;
 import lombok.Getter;
 import lombok.Setter;

@@ -4,8 +4,8 @@ import com.code4ro.legalconsultation.document.node.model.dto.DocumentNodeSimpleD
 import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 import com.code4ro.legalconsultation.document.node.repository.DocumentNodeRepository;
 import com.code4ro.legalconsultation.document.node.service.DocumentNodeService;
-import com.code4ro.legalconsultation.service.impl.pdf.parser.DocumentParser;
-import com.code4ro.legalconsultation.service.impl.pdf.parser.DocumentParsingMetadata;
+import com.code4ro.legalconsultation.document.parser.DocumentParser;
+import com.code4ro.legalconsultation.document.parser.DocumentParsingMetadata;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

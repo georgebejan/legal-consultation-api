@@ -5,7 +5,7 @@ import com.code4ro.legalconsultation.comment.model.dto.CommentDetailDto;
 import com.code4ro.legalconsultation.comment.model.dto.CommentDto;
 import com.code4ro.legalconsultation.comment.model.persistence.Comment;
 import com.code4ro.legalconsultation.comment.service.CommentService;
-import com.code4ro.legalconsultation.model.dto.PageDto;
+import com.code4ro.legalconsultation.core.model.dto.PageDto;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;

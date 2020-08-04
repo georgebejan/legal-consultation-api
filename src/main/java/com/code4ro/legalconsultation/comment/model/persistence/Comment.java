@@ -3,8 +3,8 @@ package com.code4ro.legalconsultation.comment.model.persistence;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.LastModifiedDate;
-import com.code4ro.legalconsultation.model.persistence.BaseEntity;
-import com.code4ro.legalconsultation.model.persistence.ApplicationUser;
+import com.code4ro.legalconsultation.core.model.persistence.BaseEntity;
+import com.code4ro.legalconsultation.authentication.model.persistence.ApplicationUser;
 import com.code4ro.legalconsultation.document.node.model.persistence.DocumentNode;
 
 import javax.persistence.*;

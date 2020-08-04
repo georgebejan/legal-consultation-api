@@ -1,7 +1,6 @@
 package com.code4ro.legalconsultation.user.model.persistence;
 
-import com.code4ro.legalconsultation.model.persistence.BaseEntity;
-import com.code4ro.legalconsultation.user.model.persistence.UserRole;
+import com.code4ro.legalconsultation.core.model.persistence.BaseEntity;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
